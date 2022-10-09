@@ -12,9 +12,12 @@ Import-Module -Name Terminal-Icons
 
 Set-Alias -Name tera -Value terraform
 Set-Alias -Name tf -Value terraform
-Set-Alias -Name awsterminal - Value oh-my-posh --init --shell pwsh --config "C:\GDrive\soft\datasoft\WTer_file\ps_home\gmay_theme_aws.json" | Invoke-Expression
+Set-Alias -Name awsterminal -Value "oh-my-posh --init --shell pwsh --config 'C:\GDrive\soft\datasoft\WTer_file\ps_home\gmay_theme_aws.json' | Invoke-Expression"
 
-oh-my-posh --init --shell pwsh --config C:\GDrive\soft\datasoft\WTer_file\ps_home\gmay_theme.json | Invoke-Expression
+
+
+
+oh-my-posh --init --shell pwsh --config C:\GDrive\soft\datasoft\WTer_file\ps_home\ken_theme.json | Invoke-Expression
 
 
 
